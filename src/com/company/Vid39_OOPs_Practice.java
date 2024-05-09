@@ -118,7 +118,7 @@ public class Vid39_OOPs_Practice {
 
        */
 // ----------------------- Problem-6 ---------------------------
-        Circle circle = new Circle();
+        Circ circle = new Circ();
         circle.radius = 5.5f;
         circle.area2();
         circle.circumference();

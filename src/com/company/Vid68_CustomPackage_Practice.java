@@ -1,7 +1,7 @@
-package com.practice;
+package com.company;
 import java.lang.Math;
 // ------------------------- Rectangle --------------------------
-class Rectangle {
+class Rect {
     int length;
     int breadth;
 
@@ -42,7 +42,7 @@ class Square{
 
 }
 // ------------------------- Circle --------------------------
-class Circle{
+class Circ {
     float radius;
 
     public float getRadius(){ return radius; }
@@ -97,7 +97,7 @@ class Sphere{
 public class Vid68_CustomPackages_Practice {
     public static void main(String[] args) {
         // Q1
-        Rectangle rect = new Rectangle();
+        Rect rect = new Rect();
         rect.setLength(30);
         rect.setBreadth(10);
         System.out.println("The area of rectangle is: " + rect.area());
@@ -110,7 +110,7 @@ public class Vid68_CustomPackages_Practice {
         System.out.println("The perimeter is: " + sq.perimeter1()+ "\n");
 
         // Q3
-        Circle cir = new Circle();
+        Circ cir = new Circ();
         cir.setRadius(20);
         System.out.println("The area of a circle is: " + cir.areac());
         System.out.println("The circumference is: " + cir.circumference() + "\n");
